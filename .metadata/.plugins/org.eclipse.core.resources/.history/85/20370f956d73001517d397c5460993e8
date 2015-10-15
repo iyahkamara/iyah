@@ -1,0 +1,18 @@
+package nathan;
+
+public class Tryandcatch {
+Public Static void main(String args[]){
+
+try
+
+{
+	int data=80/0;
+}
+catch (ArithmeticException e)
+		{
+	System.out.println(e);
+		}
+System.out.println("rest of the work done");
+	}
+
+}
